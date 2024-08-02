@@ -36,7 +36,9 @@ be the active RC bandpass filter circuits.
 Since the Square wave function f(x) is odd ,
 
 ![image](https://github.com/user-attachments/assets/8594ba69-7a39-4d40-aef3-c936b29601b3)
+
 The Fourier series is therefore
+
 ![image](https://github.com/user-attachments/assets/e7aaf9dd-5b13-4b09-992e-f0957e7db752)
 
 
