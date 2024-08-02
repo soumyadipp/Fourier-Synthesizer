@@ -6,8 +6,8 @@ laboratory to demonstrate convincingly the principles of Fourier Analysis . A
 primary goal is to create a laboratory instrument of sufficient precision and
 flexibility to generate a wide variety of waveshapes.
 
-![image](https://github.com/user-attachments/assets/5074d862-83be-4546-9e56-7e1f3eea0b70)
-![image](https://github.com/user-attachments/assets/13b3cf7f-a1ea-46fe-9c3c-f8cf794c6ab2)
+![image](https://github.com/user-attachments/assets/d2578df1-5fce-4f29-a9e8-8e07402645d8)
+
 
 It can be shown that the Fourier series converges to f(t), except at
 points of discontinuity, if f(t) satisfies the Dirichlet conditions . Any physically
@@ -55,6 +55,15 @@ filters are summed to be displayed on an oscilloscope.
 
   ![image](https://github.com/user-attachments/assets/89af8132-a833-4c43-b1ed-b95ccb35b300)
 
+  Digital Counter Design : We utilised the versatile IC 7490 to construct a series
+of counters with moduli of 5, 9, 3, and 7. These counters effectively divide the
+original waveform into multiple frequency-specific segments. By passing these
+segmented waveforms through active bandpass filters, we selectively isolate
+the odd sine harmonics of the fundamental frequency while excluding all other
+unwanted harmonics. This meticulous design ensures that only the desired
+frequency components are retained, resulting in a refined output signal free
+from unwanted interference
+
   ![image](https://github.com/user-attachments/assets/5f46f3c9-61a4-4d76-a16a-cb0c127ba788)
 
 Bandpass Filter
@@ -85,3 +94,22 @@ reconstruction of the intended waveform, culminating in a precise output
 representation.
 
 ![image](https://github.com/user-attachments/assets/63da4d60-c477-4968-a788-18f1456e754f)
+
+OUTPUT:
+Square Wave
+
+![fourprobeoscilloscope](https://github.com/user-attachments/assets/f1cef590-55b8-4cd4-99db-8aa839eed6ce)
+
+Conclusion :
+In conclusion, our experiment employing IC 7490 counters, active bandpass
+filters, and operational amplifier circuits proved instrumental in achieving our
+objective of isolating and reconstructing specific frequency components from
+an original waveform. By strategically dividing the waveform into
+frequency-specific segments using the counters and filtering out unwanted
+harmonics with active bandpass filters, we successfully extracted the odd sine
+harmonics of the fundamental frequency. The subsequent combination of
+these harmonics through op-amp circuits facilitated the generation of the
+desired square waveform. Through meticulous design and implementation, we
+demonstrated the effectiveness of this approach in signal processing and
+waveform manipulation, underscoring its potential applicability in various
+engineering and scientific domains.
