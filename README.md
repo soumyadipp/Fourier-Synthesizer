@@ -1,5 +1,7 @@
 Introduction:
 
+![image](https://github.com/soumyadipp/Fourier-Synthesizer/blob/main/Fourier%20Synthesizer%20kit%20final.jpg)
+
 The purpose of the work described in this report is to develop
 a piece of electronic hardware that could be used in a communications
 laboratory to demonstrate convincingly the principles of Fourier Analysis . A
